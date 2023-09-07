@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700;800;900&display=swap');
+
+
+*{ 
+	
+	 padding:0px; 
+	 margin:0px; 
+	 box-sizing:border-box; 
+} 
+
+:root{
+	--nav:#ededed;
+	--sec:#d8ed8a;
+	--primary:#778e5c;
+	--back:#2b2c2e;
+}
+a {
+	text-decoration: none;
+}
+
+img{
+	object-fit:cover;
+}
+
+button{
+	border:none;
+}
+
+p, li, a {
+    font-family: 'Amatic SC', cursive;
+	letter-spacing: 2px;
+}
+
+h2 {
+	font-family: 'Amatic SC', cursive;
+	letter-spacing: 2px;
+	font-size:40px;
+	font-weight::700;
+	color:var(--primary)
+}
+
+
+
+.sec1{
+	
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	margin-top:100px;
+}
+
+.sec1 .carousel h2{
+	margin-top:10px;
+}
+
+.sec1 .carousel{
+	width:70%;
+	height:auto;
+	background-color:black;
+	margin-top:30px;	
+}
+
+
+.sec1 .carousel img{
+	width:100%;
+	height:70vh;
+}
+
+.sec1 .carousel .imgl{
+	display:block;
+}
+
+
+.sec1 .carousel .img2{
+	display:none;
+}
+
+.sec1 .carousel .img3{
+	display:none;
+}
+
+.sec2 {
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	margin-top:100px;
+}
+
+.sec2 .slider{
+	width:100%;
+	height:auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-top:30px;
+}
+
+.sec2 .slider img{
+	width:70%;
+    height:70vh;
+	border-radius:5px;
+}	
+
+.backtotop {
+	width:40px;
+	height:40px;
+	position:fixed;
+	bottom:20px;
+	right:20px;
+}

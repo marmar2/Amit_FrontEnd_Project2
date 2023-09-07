@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto+Condensed&display=swap');
+
+
+*{ 
+	
+	 padding:0px; 
+	 margin:0px; 
+	 box-sizing:border-box; 
+} 
+
+:root{
+	--nav:#ededed;
+	--sec:#d8ed8a;
+	--primary:#778e5c;
+	--back:#2b2c2e;
+}
+
+#products{
+	width:100%;
+	height:auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:wrap;
+	margin-top:105px;
+} 
+
+.card{
+	width:400px;
+	height:500px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:wrap;
+	margin:10px;
+    box-shadow: 4px 3px 5px 0px rgba(0,0,0,0.46);
+    border-radius:5px;	
+}
+
+.card img{
+	width:400px;
+	height:300px;
+	object-fit:contain;
+}
+
+.card .details{
+	width:100%;
+	height:200px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	background-color:var(--nav);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding:5px;
+	text-align:center;
+}
+
+.card .details h2{
+	font-size:30px;
+	font-weight:700;
+	font-family: 'Amatic SC', cursive;
+	color:var(--back);
+}
+
+.card .details .description{
+	font-size:20px;
+	font-weight:700;
+	font-family: 'Amatic SC', cursive;
+	color:var(--back);
+}
+
+.card .details .price{
+	font-size:40px;
+	font-weight:900;
+	font-family: 'Amatic SC', cursive;
+	color:var(--back);
+}
+
+.backtotop {
+	width:40px;
+	height:40px;
+	position:fixed;
+	bottom:20px;
+	right:20px;
+}
